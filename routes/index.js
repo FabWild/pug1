@@ -8,7 +8,7 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express' });
 });
 
-router.get('/coucou_pug', function(req, res, next) {
+router.get('/coucou-pug', function(req, res, next) {
   let sayHello = "Hello buddy"
   res.render('coucou', { title: sayHello });
 });
